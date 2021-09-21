@@ -1,0 +1,26 @@
+{
+    "name": "aplicacaonodeaula",
+    "version": "1.0.0",
+    "description": "Pratica Aula",
+    "main": "app.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Callegaz/githubPratica03_02"
+    },
+    "keywords": [
+      "Aplicacao_aula"
+
+    ],
+    "author": "Victor",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Callegaz/githubPratica03_02/issues"
+    },
+    "homepage": "https://github.com/Callegaz/githubPratica03_02#readme",
+    "dependencies": {
+      "jest": "^27.2.0"
+    }
+  }
