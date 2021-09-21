@@ -4,7 +4,9 @@
     "description": "Pratica Aula",
     "main": "app.js",
     "scripts": {
-      "test": "jest"
+      "start": "node index",
+      "test": "jest --watchAll",
+      "test:ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
     },
     "repository": {
       "type": "git",
@@ -14,7 +16,7 @@
       "Aplicacao_aula"
 
     ],
-    "author": "Victor",
+    "author": "Callegaz",
     "license": "ISC",
     "bugs": {
       "url": "https://github.com/Callegaz/githubPratica03_02/issues"
